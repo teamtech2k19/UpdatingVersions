@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="300dp"
+       android:layout_height="300dp"
+       android:gravity="center"
+       android:background="@drawable/sh"
+      android:orientation="vertical">
+
+   <ImageButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/alert"
+       android:background="@null"
+       android:src="@drawable/ic_panic"
+       android:onClick="alert"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="SOS"
+       android:textColor="#D50000"
+       android:textSize="50sp"
+       android:textStyle="bold|italic"/>
+
+   </LinearLayout>
+</LinearLayout>

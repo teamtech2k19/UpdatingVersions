@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.safewomen.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.safewomen.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+         />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.safewomen.ui.contacts.ContactFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_contacts" />
+
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.safewomen.ui.contactus.ContactusFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contactus" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.safewomen.ui.feedback.FeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback" />
+</navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "3987539967",
+    "firebase_url": "https://safewomen-4008b.firebaseio.com",
+    "project_id": "safewomen-4008b",
+    "storage_bucket": "safewomen-4008b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3987539967:android:5a0d20ebe6d5d9b63e89ca",
+        "android_client_info": {
+          "package_name": "com.example.safewomen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3987539967-q8fjr4ej2j89imb569kiib6adrrgh6bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safewomen",
+            "certificate_hash": "d47026972ccfa00f1b4a8f0095b0263c8942e13f"
+          }
+        },
+        {
+          "client_id": "3987539967-k8d9mmt1vop4kr2na5crejlv1265jo6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWzgSTpj-CAMP61SZqR1rDMF3r7xjyi1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3987539967-k8d9mmt1vop4kr2na5crejlv1265jo6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
