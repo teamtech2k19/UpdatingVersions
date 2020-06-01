@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="4"
+    android:visibility="visible"
+    android:id="@+id/relayout"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/reemail"
+            android:background="@drawable/sha"
+            android:drawableEnd="@drawable/ic_email"
+            android:padding="12dp"
+            android:layout_marginTop="14dp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_login"
+            android:layout_marginTop="18dp"
+            android:background="@null"
+            android:id="@+id/reset"
+            android:onClick="forgot"/>
+
+
+    </LinearLayout>
+</LinearLayout>

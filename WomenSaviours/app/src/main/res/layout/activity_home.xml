@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerInParent="true"
+    android:padding="10dp"
+    android:background="@drawable/cur">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:id="@+id/uname"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:weightSum="5"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_weight="2"
+        android:padding="3dp">
+
+
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="2"
+            android:onClick="amb"
+            android:background="@drawable/card"
+            card_view:cardCornerRadius="9dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/iv"
+                    android:src="@drawable/amb"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="2"
+            android:onClick="profile"
+            android:background="@drawable/card"
+            android:layout_marginLeft="20dp"
+            card_view:cardCornerRadius="9dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:background="@drawable/card"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/iv1"
+                    android:src="@drawable/profiel"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout1"
+        android:weightSum="4"
+        android:layout_weight="2"
+        android:layout_marginTop="15dp"
+        android:padding="3dp">
+
+
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="2"
+            android:onClick="loc"
+            android:background="@drawable/card"
+            card_view:cardCornerRadius="9dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start|center"
+                android:background="@drawable/card"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/iv2"
+                    android:src="@drawable/loc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="2"
+            android:onClick="complaint"
+            android:background="@drawable/card"
+            android:layout_marginLeft="20dp"
+            card_view:cardCornerRadius="9dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end|center"
+                android:orientation="vertical"
+                android:background="@drawable/card"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/iv3"
+                    android:src="@drawable/complaint"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/panic"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/panicb"
+        android:background="@null"
+        android:id="@+id/alert"
+        />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/ec"
+        app:maxImageSize="40dp"
+        android:layout_marginBottom="45dp"
+        android:background="@null" />
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="@drawable/rshape"
+    tools:context=".ComplaintActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complaint"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic|bold"/>
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="27dp"
+        android:entries="@array/crimes"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="subject"
+        android:layout_marginTop="27dp"
+        android:id="@+id/subject"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="complaint"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="27dp"
+        android:id="@+id/complaint"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:background="#B602FA69"
+        android:layout_gravity="center"
+        android:layout_marginTop="27dp"
+        android:onClick="csubmit"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/complaintbox"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="15dp"
+    android:background="@drawable/rshape"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Emergency Contacts"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/cpolice"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Police - 100"
+        android:textSize="20sp"
+        android:background="@drawable/rshape"
+        android:layout_marginTop="21dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/cfire"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Fire - 101"
+        android:textSize="20sp"
+        android:background="@drawable/rshape"
+        android:layout_marginTop="21dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/cambulance"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Ambulance - 102"
+        android:textSize="20sp"
+        android:background="@drawable/rshape"
+        android:layout_marginTop="21dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/cnen"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="National Emergency Number - 112"
+        android:textSize="20sp"
+        android:background="@drawable/rshape"
+        android:layout_marginTop="21dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>

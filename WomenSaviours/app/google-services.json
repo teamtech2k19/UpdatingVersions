@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "788980939172",
+    "firebase_url": "https://women-saviours.firebaseio.com",
+    "project_id": "women-saviours",
+    "storage_bucket": "women-saviours.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788980939172:android:9f911cf0c69559953fe931",
+        "android_client_info": {
+          "package_name": "com.example.womensaviours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788980939172-0mqeh6jp0fom7h9njatqk3j7l8v4lcvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.womensaviours",
+            "certificate_hash": "cf2817921d58bef64873a734110db18d79005df5"
+          }
+        },
+        {
+          "client_id": "788980939172-fcboluv1ekvksorrb0sn4sdquiee3gvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSzTq4AN3xNOPWvagsp-Nk4h8dgM2gOis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788980939172-fcboluv1ekvksorrb0sn4sdquiee3gvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
